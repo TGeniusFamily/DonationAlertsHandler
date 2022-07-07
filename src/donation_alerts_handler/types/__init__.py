@@ -1,0 +1,2 @@
+from donation_alerts_handler.types.donations import Donations
+from donation_alerts_handler.types.user_profile import UserProfile
