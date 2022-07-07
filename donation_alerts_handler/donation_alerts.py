@@ -4,8 +4,8 @@ import logging
 
 import aiohttp
 
-from donation_allerts_handler.types.user_profile import UserProfile
-from donation_allerts_handler.types.donations import Donations
+from donation_alerts_handler.types.user_profile import UserProfile
+from donation_alerts_handler.types.donations import Donations
 
 
 class ResponseError(Exception):

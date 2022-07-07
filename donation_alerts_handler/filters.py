@@ -1,4 +1,4 @@
-from donation_allerts_handler.types.donations import Donations
+from donation_alerts_handler.types.donations import Donations
 
 
 def minimum_value(n: int):
