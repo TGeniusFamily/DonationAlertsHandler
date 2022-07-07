@@ -64,7 +64,10 @@ class Client:
         for handler in self.handlers:
             filters = self.handlers[handler]
             if await filters_handle():
-                await handler(donate)
+                try:
+                    await handler(donate)
+                except Exception as e:
+                    logging.error(f"error while processing handler: {e}")
 
     async def connect(self):
         self.connected = True
