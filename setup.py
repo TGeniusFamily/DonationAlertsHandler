@@ -6,5 +6,8 @@ setup(name='DonationAlertsHandler',
       author='bezumnui',
       author_email='bezumnui.mistikgt@gmail.com',
       url='https://github.com/TGeniusFamily/DonationAlertsHandler',
-      packages=['aiohttp'],
-     )
+      packages=['distutils', 'distutils.command'],
+      requires=[
+          "aiohttp"
+      ]
+      )
