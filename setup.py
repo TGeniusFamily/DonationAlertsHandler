@@ -11,6 +11,6 @@ setup(name='DonationAlertsHandler',
       requires=[
           "aiohttp"
       ],
-      packages=['donation_alerts_handler']
+      packages=find_packages("donation_alerts_handler")
 
       )
