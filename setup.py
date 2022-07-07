@@ -10,5 +10,7 @@ setup(name='DonationAlertsHandler',
       url='https://github.com/TGeniusFamily/DonationAlertsHandler',
       requires=[
           "aiohttp"
-      ]
+      ],
+      packages=['donation_alerts_handler']
+
       )
