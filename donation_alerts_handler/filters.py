@@ -24,7 +24,7 @@ def message_prefix(s: str):
 
 def name_prefix(s: str):
     async def f(donate: Donations):
-        return donate.name.startswith(s)
+        return donate.username.startswith(s)
 
     return f
 
