@@ -18,7 +18,7 @@ async def on_donate(donate: Donations):
 client.run()
 ```
 
-## You can create your filters. They needed to return boolean value:
+## You can create your own filters. They needed to return boolean value:
 ```py
 def minimum_value(n: int):
     async def f(donate: Donations):
