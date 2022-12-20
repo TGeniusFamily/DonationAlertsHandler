@@ -1,4 +1,4 @@
-# DonationAllertsHandler
+# DonationAlertsHandler
 
 Simple example:
 
